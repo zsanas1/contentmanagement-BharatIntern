@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(211, 173, 106);
+}
+
+h1 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+.input-section {
+    margin-bottom: 15px;
+    width: 30cm;
+}
+
+
+.label-section {
+    text-decoration: wavy;
+    font-size: 1cm;
+    color: rgb(208, 126, 126);
+}
+
+.div-section {
+    height: 1cm;
+    border-radius: 5px;
+    margin: 0.4cm;
+}
+
+.preview {
+    width: 10cm;
+    height: 10cm;
+}
+
+.video-preview {
+    width: 10cm;
+    height: auto;
+}
+
+.input-section label {
+    display: block;
+    margin-bottom: 6px;
+}
+
+.input-section input[type="text"],
+.input-section input[type="file"] {
+    width: 100%;
+    padding: 6px;
+}
+
+.button-section {
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.button-section button {
+    padding: 10px 15px;
+    font-size: 10px;
+}
+
+.data-container {
+    max-height: 300px;
+    
+}
+
+.card {
+    border: 1px solid rgb(126, 212, 246);
+    border-radius: 3px;
+    box-shadow: 0 2px 4px rgba(89, 185, 157, 0.1);
+    padding: 10px;
+    margin-bottom: 2px;
+    background-image: url("pic.jpg");
+    background-size: cover;
+    background-position: center;
+    overflow-y: scroll;
+
+}
+
+.card-header {
+    background-color: #98ab79;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.card-title {
+    margin: 0;
+}
+
+.card-body {
+    margin-top: 10px;
+}
